@@ -13,35 +13,36 @@
     </header>
     <main>
         <section id="DisCal">
-            <span id="d1"><input type="number" name="display" id="display"></span>
+            <span id="d1"><input type="text" name="display" id="display"></span>
         </section>
         <section id="operadores">
             <div>
-                <span class="op"><input type="button" value="+" id="somar"></span>
-                <span class="op"><input type="button" value="-" id="sub"></span>
-                <span class="op"><input type="button" value="x" id="multi"></span>
-                <span class="op"><input type="button" value="÷" id="divi"></span>
+                <span class="op"><input type="button" value="+" id="somar" onclick="somar()"></span>
+                <span class="op"><input type="button" value="-" id="sub" onclick="sub()"></span>
+                <span class="op"><input type="button" value="x" id="multi" onclick="multi()"></span>
+                <span class="op"><input type="button" value="÷" id="divi" onclick="divi()"></span>
             </div>
         </section>
         <section id="Numeros">
             <div>
-                <span><input type="button" value="1" onclick="addnum()" id="1"></span>
-                <span><input type="button" value="2" onclick="addnum()" id="2"></span>
-                <span><input type="button" value="3" onclick="addnum()" id="3"></span>
+                <span><input type="button" value="1" onclick="addnum(this)" class="num"></span>
+                <span><input type="button" value="2" onclick="addnum(this)" class="num"></span>
+                <span><input type="button" value="3" onclick="addnum(this)" class="num"></span>
             </div>
             <div>
-                <span><input type="button" value="4" onclick="addnum()" id="4"></span>
-                <span><input type="button" value="5" onclick="addnum()" id="5"></span>
-                <span><input type="button" value="6" onclick="addnum()" id="6"></span>
+                <span><input type="button" value="4" onclick="addnum(this)" class="num"></span>
+                <span><input type="button" value="5" onclick="addnum(this)" class="num"></span>
+                <span><input type="button" value="6" onclick="addnum(this)" class="num"></span>
             </div>
             <div>
-                <span><input type="button" value="7" onclick="addnum()" id="7"></span>
-                <span><input type="button" value="8" onclick="addnum()" id="8"></span>
-                <span><input type="button" value="9" onclick="addnum()" id="9"></span>
+                <span><input type="button" value="7" onclick="addnum(this)" class="num"></span>
+                <span><input type="button" value="8" onclick="addnum(this)" class="num"></span>
+                <span><input type="button" value="9" onclick="addnum(this)" class="num"></span>
             </div>
             <div>
-                <span><input type="button" value="0" onclick="addnum()" id="zero"></span>
+                <span><input type="button" value="0" onclick="addnum(this)" id="zero" class="num"></span>
                 <span><input type="button" value="=" onclick="equal()" id="res"></span>
+                <span><input type="button" value="C" onclick="reset()"></span>
             </div>
         </section>
     </main>
