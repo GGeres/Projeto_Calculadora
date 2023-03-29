@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <main>
+        <section id="DisCal">
+            <span id="d1"><input type="number" name="display" id="display"></span>
+        </section>
+        <section id="operadores">
+            <div>
+                <span class="op"><input type="button" value="+" id="somar"></span>
+                <span class="op"><input type="button" value="-" id="sub"></span>
+                <span class="op"><input type="button" value="x" id="multi"></span>
+                <span class="op"><input type="button" value="÷" id="divi"></span>
+            </div>
+        </section>
+        <section id="Numeros">
+            <div>
+                <span><input type="button" value="1" onclick="addnum()" id="1"></span>
+                <span><input type="button" value="2" onclick="addnum()" id="2"></span>
+                <span><input type="button" value="3" onclick="addnum()" id="3"></span>
+            </div>
+            <div>
+                <span><input type="button" value="4" onclick="addnum()" id="4"></span>
+                <span><input type="button" value="5" onclick="addnum()" id="5"></span>
+                <span><input type="button" value="6" onclick="addnum()" id="6"></span>
+            </div>
+            <div>
+                <span><input type="button" value="7" onclick="addnum()" id="7"></span>
+                <span><input type="button" value="8" onclick="addnum()" id="8"></span>
+                <span><input type="button" value="9" onclick="addnum()" id="9"></span>
+            </div>
+            <div>
+                <span><input type="button" value="0" onclick="addnum()" id="zero"></span>
+                <span><input type="button" value="=" onclick="equal()" id="res"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Gustavo Geres</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
