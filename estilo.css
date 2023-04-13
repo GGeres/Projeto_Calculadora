@@ -8,10 +8,11 @@ header{
 }
 main{
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 50vw;
+    height: 60vh;
     background-color: white;
     margin: auto;
+    padding: 5px;
     border-radius: 10%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
 }
@@ -19,8 +20,8 @@ input#display{
     background-color: lightslategray;
     border-style: solid;
     border: black;
-    width: 250px;
-    height: 40px;
+    width: 42vw;
+    height: 7vh;
     font-size: larger;
     font-weight: lighter;
     text-align: center;
@@ -34,13 +35,13 @@ section#Numeros{
     margin-left: 70px;
 }
 input{
-    width: 50px;
-    height: 30px;
+    width: 8vw;
+    height: 5vh;
     font-weight: lighter;
     margin-top: 10px;
 }
 input#zero{
-    width: 104px;
+    width: 16.5vw;
 }
 
 div{
